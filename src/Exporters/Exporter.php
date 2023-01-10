@@ -2,8 +2,8 @@
 
 namespace Dcat\EasyExcel\Exporters;
 
-use Box\Spout\Common\Entity\Style\Style;
-use Box\Spout\Writer\WriterInterface;
+use OpenSpout\Common\Entity\Style\Style;
+use OpenSpout\Writer\WriterInterface;
 use Dcat\EasyExcel\Contracts;
 use Dcat\EasyExcel\Spout\WriterFactory;
 use Dcat\EasyExcel\Support\Traits\Macroable;
