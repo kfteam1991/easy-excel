@@ -1,5 +1,5 @@
 {
-  "name": "dcat/easy-excel",
+  "name": "yzh52521/easy-excel",
   "description": "使用简单实用的语义化接口快速读写Excel文件",
   "type": "library",
   "keywords": [
@@ -15,7 +15,7 @@
     "stream"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/jqhph/easy-excel",
+  "homepage": "https://github.com/yzh52521/easy-excel",
   "authors": [
     {
       "name": "jqh",

@@ -36,7 +36,7 @@
 ## 安装
 
 ```bash
-composer require dcat/easy-excel
+composer require yzh52521/easy-excel
 ```
 
 ### 快速开始
