@@ -196,7 +196,7 @@ trait Excel
     }
 
     /**
-     * @param  \Box\Spout\Reader\ReaderInterface|\Box\Spout\Writer\WriterInterface  $readerOrWriter
+     * @param  \OpenSpout\Reader\ReaderInterface|\OpenSpout\Writer\WriterInterface  $readerOrWriter
      */
     protected function configure(&$readerOrWriter)
     {
