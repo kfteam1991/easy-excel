@@ -3,13 +3,13 @@
 # EASY EXCEL
 
 <p>
-    <a href="https://github.com/jqhph/easy-excel/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-7389D8.svg?style=flat" ></a>
+    <a href="https://github.com/yzh52521/easy-excel/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-7389D8.svg?style=flat" ></a>
      <a href="https://styleci.io/repos/215738797">
         <img src="https://github.styleci.io/repos/215738797/shield" alt="StyleCI">
     </a>
-    <a href="https://github.com/jqhph/easy-excel/releases" ><img src="https://img.shields.io/github/release/jqhph/easy-excel.svg?color=4099DE" /></a> 
-    <a href="https://packagist.org/packages/dcat/easy-excel"><img src="https://img.shields.io/packagist/dt/dcat/easy-excel.svg?color=" /></a> 
-    <a><img src="https://img.shields.io/badge/php-7.1+-59a9f8.svg?style=flat" /></a> 
+    <a href="https://github.com/yzh52521/easy-excel/releases" ><img src="https://img.shields.io/github/release/yzh52521/easy-excel.svg?color=4099DE" /></a> 
+    <a href="https://packagist.org/packages/yzh52521/easy-excel"><img src="https://img.shields.io/packagist/dt/yzh52521/easy-excel.svg?color=" /></a> 
+    <a><img src="https://img.shields.io/badge/php-7.2+-59a9f8.svg?style=flat" /></a> 
 </p>
 
 </div>
