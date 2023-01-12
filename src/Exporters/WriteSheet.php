@@ -4,8 +4,10 @@ namespace Dcat\EasyExcel\Exporters;
 
 use OpenSpout\Common\Entity\Row;
 use OpenSpout\Common\Entity\Style\Style;
+use OpenSpout\Common\Exception\IOException;
 use OpenSpout\Writer\Common\Creator\WriterEntityFactory;
 use OpenSpout\Writer\CSV\Writer as CsvWriter;
+use OpenSpout\Writer\Exception\WriterNotOpenedException;
 use OpenSpout\Writer\WriterInterface;
 use Dcat\EasyExcel\Contracts;
 use Dcat\EasyExcel\Excel;
@@ -26,8 +28,8 @@ trait WriteSheet
      * @param  WriterInterface  $writer
      * @return WriterInterface
      *
-     * @throws \OpenSpout\Common\Exception\IOException
-     * @throws \OpenSpout\Writer\Exception\WriterNotOpenedException
+     * @throws IOException
+     * @throws WriterNotOpenedException
      */
     protected function writeSheets(WriterInterface $writer)
     {
@@ -65,8 +67,8 @@ trait WriteSheet
      * @param  array  $rows
      * @param  Contracts\Exporters\Sheet  $sheet
      *
-     * @throws \OpenSpout\Common\Exception\IOException
-     * @throws \OpenSpout\Writer\Exception\WriterNotOpenedException
+     * @throws IOException
+     * @throws WriterNotOpenedException
      */
     protected function writeRowsFromArray(WriterInterface $writer, $index, array &$rows, Contracts\Exporters\Sheet $sheet)
     {
@@ -86,8 +88,8 @@ trait WriteSheet
      * @param  Generator  $generator
      * @param  Contracts\Exporters\Sheet  $sheet
      *
-     * @throws \OpenSpout\Common\Exception\IOException
-     * @throws \OpenSpout\Writer\Exception\WriterNotOpenedException
+     * @throws IOException
+     * @throws WriterNotOpenedException
      */
     protected function writeRowsFromGenerator(WriterInterface $writer, $index, Generator $generator, Contracts\Exporters\Sheet $sheet)
     {
@@ -107,8 +109,8 @@ trait WriteSheet
      * @param  array  $item
      * @param  Contracts\Exporters\Sheet  $sheet
      *
-     * @throws \OpenSpout\Common\Exception\IOException
-     * @throws \OpenSpout\Writer\Exception\WriterNotOpenedException
+     * @throws IOException
+     * @throws WriterNotOpenedException
      */
     protected function writeRow(WriterInterface $writer, array &$item, Contracts\Exporters\Sheet $sheet)
     {
@@ -132,8 +134,8 @@ trait WriteSheet
      * @param  Contracts\Exporters\Sheet  $sheet
      * @param  array  $firstRow
      *
-     * @throws \OpenSpout\Common\Exception\IOException
-     * @throws \OpenSpout\Writer\Exception\WriterNotOpenedException
+     * @throws IOException
+     * @throws WriterNotOpenedException
      */
     protected function writeHeadings(WriterInterface $writer, Contracts\Exporters\Sheet $sheet, array $firstRow)
     {
