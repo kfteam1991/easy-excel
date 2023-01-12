@@ -26,7 +26,7 @@
 
 ## 环境
 
-- PHP >= 7.1
+- PHP >= 7.2
 - PHP extension php_zip
 - PHP extension php_xmlreader
 - openspout/openspout >= 3.0
