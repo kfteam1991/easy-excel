@@ -2,7 +2,7 @@
 
 namespace Dcat\EasyExcel\Contracts;
 
-use Illuminate\Contracts\Filesystem\Filesystem as LaravelFilesystem;
+use yzh52521\filesystem\Filesystem as ThinkFilesystem;
 use League\Flysystem\FilesystemInterface;
 
 /**
@@ -42,7 +42,7 @@ interface Excel
     public function getType();
 
     /**
-     * @param  FilesystemInterface|LaravelFilesystem|string  $filesystem
+     * @param  FilesystemInterface|ThinkFilesystem|string  $filesystem
      * @return $this
      */
     public function disk($filesystem);
