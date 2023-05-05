@@ -88,8 +88,8 @@ Excel::export($array)->disk($filesystem)->store('users.xlsx');
 // 使用yzh52521/think-filesystem
 
 Excel::export($array)->disk('local')->store('users.xlsx');
-$filesystem = \yzh52521\filesystem\facade\Filesystem::disk('local')->getDriver();
 // 也可以
+$filesystem = \yzh52521\filesystem\facade\Filesystem::disk('local')->getDriver();
 Excel::export('users.xlsx')->disk($filesystem)->store('users.xlsx');
 
 
