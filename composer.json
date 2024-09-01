@@ -1,10 +1,9 @@
 {
-  "name": "yzh52521/easy-excel",
+  "name": "kfteam1991/easy-excel",
   "description": "使用简单实用的语义化接口快速读写Excel文件",
   "type": "library",
   "keywords": [
     "box spout",
-    "openspout",
     "read",
     "easy excel",
     "csv",
@@ -16,16 +15,16 @@
     "stream"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yzh52521/easy-excel",
+  "homepage": "https://github.com/kfteam1991/easy-excel",
   "authors": [
     {
-      "name": "yzh52521",
-      "email": "396751927@qq.com"
+      "name": "kfteam1991",
+      "email": "kfteam1991@gmail.com"
     }
   ],
   "require": {
-    "php": "^7.2|^8.0",
-    "openspout/openspout": "~3",
+   "php": "^7.0|^8.0",
+    "openspout/openspout": "~4",
     "league/flysystem": "~1|~2|~3",
     "ext-json": "*"
   },
