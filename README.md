@@ -1,18 +1,3 @@
-<div align="center">
-
-# EASY EXCEL
-
-<p>
-    <a href="https://github.com/yzh52521/easy-excel/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-7389D8.svg?style=flat" ></a>
-     <a href="https://styleci.io/repos/215738797">
-        <img src="https://github.styleci.io/repos/215738797/shield" alt="StyleCI">
-    </a>
-    <a href="https://github.com/yzh52521/easy-excel/releases" ><img src="https://img.shields.io/github/release/yzh52521/easy-excel.svg?color=4099DE" /></a> 
-    <a href="https://packagist.org/packages/yzh52521/easy-excel"><img src="https://img.shields.io/packagist/dt/yzh52521/easy-excel.svg?color=" /></a> 
-    <a><img src="https://img.shields.io/badge/php-7.2+-59a9f8.svg?style=flat" /></a> 
-</p>
-
-</div>
 
 `Easy Excel`是一个基于 <a href="https://github.com/openspout/openspout" target="_blank">openspout/openspout</a> 封装的Excel读写工具，可以帮助开发者更快速更轻松地读写Excel文件，
 并且无论读取多大的文件只需占用极少的内存。
@@ -26,17 +11,17 @@
 
 ## 环境
 
-- PHP >= 7.2
+- PHP >= 8.0
 - PHP extension php_zip
 - PHP extension php_xmlreader
-- openspout/openspout >= 3.0
+- openspout/openspout >= 4.0
 - league/flysystem >= 1.0
 
 
 ## 安装
 
 ```bash
-composer require yzh52521/easy-excel
+composer require kfteam1991/easy-excel
 ```
 
 ### 快速开始
